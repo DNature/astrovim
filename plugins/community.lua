@@ -5,7 +5,7 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
-  -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.colorscheme.gruvbox-baby" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.prisma" },
@@ -15,7 +15,7 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.bars-and-lines.heirline-mode-text-statusline" },
   { import = "astrocommunity.bars-and-lines.scope-nvim" },
-  { import = "astrocommunity.media.drop-nvim" },
+  -- { import = "astrocommunity.media.drop-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.project.project-nvim" },
 }
