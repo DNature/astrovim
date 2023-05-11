@@ -15,7 +15,7 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.bars-and-lines.heirline-mode-text-statusline" },
   { import = "astrocommunity.bars-and-lines.scope-nvim" },
-  -- { import = "astrocommunity.media.drop-nvim" },
+  { import = "astrocommunity.editing-support.nvim-ts-rainbow2" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.project.project-nvim" },
 }
