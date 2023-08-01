@@ -18,7 +18,13 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "gruvbox-baby",
+  -- colorscheme = "gruvbox-baby",
+  -- colorscheme = "everforest",
+  -- colorscheme = "catppuccin",
+  -- colorscheme = "everforest",
+  -- colorscheme = "kanagawa-wave",
+  -- colorscheme = "monokai-pro",
+  colorscheme = "github_dark",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {

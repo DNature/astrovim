@@ -5,7 +5,17 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.colorscheme.gruvbox-baby" },
+  -- { import = "astrocommunity.colorscheme.kanagawa-nvim" },
+  -- {
+  --   import = "astrocommunity.colorscheme.monokai-pro-nvim",
+  -- },
+  -- {
+  --   import = "astrocommunity.colorscheme.everforest",
+  -- },
+  -- {
+  --   import = "astrocommunity.colorscheme.gruvbox-baby",
+  -- },
+  { import = "astrocommunity.colorscheme.github-nvim-theme" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.prisma" },
