@@ -12,12 +12,15 @@ return {
   -- {
   --   import = "astrocommunity.colorscheme.everforest",
   -- },
-  -- {
-  --   import = "astrocommunity.colorscheme.gruvbox-baby",
-  -- },
-  { import = "astrocommunity.colorscheme.github-nvim-theme" },
+  {
+    import = "astrocommunity.colorscheme.gruvbox-baby",
+  },
+  -- { import = "astrocommunity.colorscheme.github-nvim-theme" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.completion.cmp-cmdline" },
+  { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.pack.typescript" },
-  { import = "astrocommunity.pack.tailwindcss" },
+  -- { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.prisma" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.markdown" },
@@ -25,7 +28,6 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.bars-and-lines.heirline-mode-text-statusline" },
   { import = "astrocommunity.bars-and-lines.scope-nvim" },
-  { import = "astrocommunity.editing-support.nvim-ts-rainbow2" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.project.project-nvim" },
 }
